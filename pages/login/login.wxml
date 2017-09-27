@@ -1,0 +1,21 @@
+<view class="page">
+  <view class="page__bd">
+  <view class="urine-steps">
+    <view class="urine-step">
+    
+
+
+    </view>
+    <view class="urine-step">
+    </view>
+    <view class="urine-step">
+    </view>
+    <view class="urine-step">
+    </view>
+    <view class="urine-step">
+    </view>
+  </view>
+
+
+  </view>
+</view>

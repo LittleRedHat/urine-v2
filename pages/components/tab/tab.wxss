@@ -1,0 +1,28 @@
+.urine-tab{
+  position: fixed;
+  bottom:0;
+  left:20px;
+  right:20px;
+
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-top:1px solid rgb(0,146,65);
+  background-color: rgba(255,255,255,0);
+  z-index:99;
+
+}
+.urine-tab .tab-item{
+  flex:1;
+  text-align: center;
+  margin:10px;
+  color:rgb(0,146,65);
+  font-size:24px;
+  /* font-weight: bold; */
+  
+  
+}
+.urine-tab .tab-item:first-child{
+  border-right:1px solid  rgb(0,146,65);
+}

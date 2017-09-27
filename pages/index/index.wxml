@@ -1,0 +1,25 @@
+<import src="../components/tab/tab.wxml"/>
+
+
+<view class="page">
+  <view class="page__bd main-container">
+    <view class="logo-container weui-flex">
+      <image src="/assets/images/logo.jpg">
+
+      </image>
+
+    </view>
+    <view class="desc">
+    中国慢性肾脏病总人数达1.2亿，每10个成年人中就有1位患者，不仅患病率及死亡率高，而且知晓率、治疗率和有效控制率都非常低。
+本项目由苏州科委和公立医院共同发起，围绕肾脏病早期筛查和评估、及时诊断和治疗，建立的一站式全病程医疗服务平台。60岁以上居民由于器官自然衰老，每年都应做肾功能检查，预防肾脏病变。
+    </view>
+    <button class="weui-btn urine-btn" type="primary" bindtap='bindViewTap'>我要自查</button>
+    <view class="info">
+      5步完成自查
+    </view>
+
+    <template is="tab"/>
+
+    
+  </view>
+</view>

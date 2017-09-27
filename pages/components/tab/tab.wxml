@@ -1,0 +1,17 @@
+<template name="tab">
+  <view class="urine-tab">
+      <view class="tab-item">
+        <navigator>
+          试纸领取
+        </navigator>
+      </view>
+      <view class="tab-item">
+        <navigator>
+          就近复查
+        </navigator>
+      </view>
+     
+     
+  </view>
+
+</template>
