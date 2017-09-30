@@ -1,0 +1,28 @@
+.urine-steps{
+  display:flex; 
+  flex-wrap: nowrap;
+  flex-direction: row;
+  
+  overflow: hidden; 
+  
+  
+}
+.urine-step{
+ 
+  
+  
+  
+  
+  
+}
+
+.urine-step  .text{
+ 
+  
+}
+.urine-step .text::after{
+  
+}
+.urine-step .text::before{
+  
+}

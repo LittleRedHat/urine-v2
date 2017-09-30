@@ -1,7 +1,14 @@
 {
   "pages": [
+    "pages/nearby/nearby",
+    "pages/detail/detail",
+    "pages/result/result",
+    "pages/samplephoto/samplephoto",
+    "pages/sample/sample",
     "pages/index/index",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/firstphoto/firstphoto"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",

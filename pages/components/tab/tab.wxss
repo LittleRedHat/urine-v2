@@ -1,15 +1,14 @@
 .urine-tab{
-  position: fixed;
-  bottom:0;
+   position: absolute; 
+  bottom:0; 
   left:20px;
   right:20px;
-
   box-sizing: border-box;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   border-top:1px solid rgb(0,146,65);
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255,255,255);
   z-index:99;
 
 }

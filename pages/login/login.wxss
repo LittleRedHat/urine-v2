@@ -1,1 +1,51 @@
 /* pages/login/login.wxss */
+@import "../components/step/step.wxss";
+.main-container{
+  margin:10px;
+
+}
+.desc{
+  color:rgba(127,127,127,0.8);
+  font-size:16px;
+  margin:0 10px;
+}
+.user-form{
+  margin-top:10px;
+  border-top:1px solid rgb(0,146,65);
+}
+.user-form .weui-cells:after{
+  border-color:rgb(0,146,65);
+
+}
+
+.user-form .urine-required.weui-cell .weui-label:after{
+  content:'*';
+  color:rgb(255,0,0);
+}
+.user-form .weui-cell.weui-cell_input{
+  padding-left: 0;
+  padding-right:0;
+  
+  
+  
+
+}
+.user-form .weui-cell:before{
+  left:0;
+  border-color:rgb(0,146,65);
+  
+  
+
+}
+.urine-btn[type="primary"]{
+  background-color: rgb(0,146,65);
+  width:450rpx;
+}
+.user-form .weui-select{
+  border-color:rgb(0,146,65);
+}
+.user-form .weui-select::before{
+  border-color:rgb(0,146,65);
+
+
+}

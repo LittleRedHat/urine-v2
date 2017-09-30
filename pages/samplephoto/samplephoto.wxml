@@ -1,0 +1,25 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="reminder">
+      <view class="text">
+        1.注意区分左右；
+      </view>
+      <view class="text">
+        2.不要使用黄色灯源;
+      </view>
+      <view class="text">
+        3.左方横向手机，垂直于样板；
+      </view>
+      <view class="text">
+        4.对准绿色框，尽量撑满相机取景框。
+      </view>
+    </view>
+    <view class="photo">
+      <image src="../../assets/images/photo.png" mode="widthFix"></image>
+    </view>
+    <view class="info">
+      左方横向手机，垂直于样板
+    </view>
+    <button class="weui-btn urine-btn" type="primary" bindtap='bindSampleFinish'>标本拍照</button>
+  </view>
+</view>

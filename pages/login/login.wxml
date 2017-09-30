@@ -1,20 +1,104 @@
 <view class="page">
-  <view class="page__bd">
-  <view class="urine-steps">
-    <view class="urine-step">
-    
+  <view class="page__bd urine-container">
+    <view class="urine-steps">
+      <view class="urine-step">
+        <view class="text">
+          登记
+        </view>
+      </view>
+      <view class="urine-step">
+        <view class="text">
+          首次拍照
+        </view>
+      </view>
+      <view class="urine-step">
+        <view class="text">
+          取样
+        </view>
+      </view>
+      <view class="urine-step">
+        <view class="text">
+          标本拍照
+        </view>
+      </view>
+      <view class="urine-step">
+        <view class="text">
+          结果
+        </view>
+      </view>
+    </view>
+    <view class="main-container">
+      <view class="desc">
+        请您务必仔细登记表格，当自查结果呈阳性时，方便我们及时为您提供医疗救治、生活干预与肾病健康管理。
+      </view>
+      <view class="user-form">
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input urine-required">
+            <view class="weui-cell__hd">
+              <view class="weui-label ">您的手机</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" bindchange="bindPhoneChange" placeholder="请输入手机号" />
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input urine-required">
+            <view class="weui-cell__hd">
+              <view class="weui-label">您的年龄</view>
+            </view>
+            <view class="weui-cell__bd">
+              <input class="weui-input" placeholder="请输入您的年龄" />
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input urine-required">
+            <view class="weui-cell__hd">
+              <view class="weui-label">高血压病史</view>
+            </view>
+            <view class="weui-cell__bd">
+               <view class="weui-cell__bd">
+              <picker bindchange="bindHypertensionChange" range-key="value" range="{{hypertensions}}">
+                <view class="weui-select">{{hypertensions[selectedHypertensionIndex]['value']}}</view>
+              </picker>
+            </view>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input urine-required">
+            <view class="weui-cell__hd">
+              <view class="weui-label">糖尿病病史</view>
+            </view>
+            <view class="weui-cell__bd">
+              <picker bindchange="bindDiabeteChange" range-key="value" range="{{diabetes}}">
+                <view class="weui-select">{{diabetes[selectedDiabeteIndex]['value']}}</view>
+              </picker>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+              <view class="weui-label">常去医院</view>
+            </view>
+            <view class="weui-cell__bd">
+              <picker bindchange="bindHospitalChange" range-key="value" range="{{hospitals}}">
+                <view class="weui-select">{{hospitals[selectedHospitalIndex]['value']}}</view>
+              </picker>
+            </view>
+          </view>
+          <view class="weui-cell weui-cell_select">
+            <view class="weui-cell__hd">
+              <view class="weui-label">您的医保</view>
+            </view>
+            <view class="weui-cell__bd">
+              <picker bindchange="bindMedicareChange" range-key="value" range="{{medicare}}">
+                <view class="weui-select">{{medicare[selectedMedicareIndex]['value']}}</view>
+              </picker>
+            </view>
+          </view>
+        </view>
+        <button class="weui-btn urine-btn" type="primary">开始自查</button>
 
 
+
+      </view>
+
     </view>
-    <view class="urine-step">
-    </view>
-    <view class="urine-step">
-    </view>
-    <view class="urine-step">
-    </view>
-    <view class="urine-step">
-    </view>
-  </view>
 
 
   </view>

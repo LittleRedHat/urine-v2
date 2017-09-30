@@ -1,0 +1,39 @@
+<view class="page">
+  <view class="page__bd urine-container">
+    <view class="sample">
+      <view class="exp-top">
+        <view class="exp-item">
+          <image src="../../assets/images/exp_1.png" mode="aspectFit"></image>
+          <view class="exp-text">准备中段尿液，浸泡试纸2-3秒</view>
+        </view>
+        <view class="exp-item">
+           <image src="../../assets/images/arrow.png" mode="aspectFit"></image> 
+        </view>
+        <view class="exp-item">
+          <image src="../../assets/images/exp_2.png" mode="aspectFit"></image>
+          <view class="exp-text">纸巾上吸干残尿</view>
+        </view>
+      </view>
+      <view class="exp-center">
+        <view class="exp-item">
+          <image src="../../assets/images/arrow_bottom.png" mode="widthFix">
+          </image>
+        </view>
+      </view>
+      <view class="exp-bottom">
+        <view class="exp-item">
+          <image src="../../assets/images/cube.png" mode="aspectFit"></image>
+        </view>
+      </view>
+    </view>
+    <view class="info">
+      <view class="text">
+        标本试纸再次放回灰色框中，注意左右。
+      </view>
+      <view class="text">
+        标本如超过30分钟未拍照，请重新取样。
+      </view>
+    </view>
+    <button class="weui-btn urine-btn" type="primary" bindtap='bindSampleFinish'>取样完成</button>
+  </view>
+</view>

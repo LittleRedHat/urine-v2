@@ -1,0 +1,82 @@
+/* pages/sample/sample.wxss */
+
+.urine-container{
+  margin-bottom:20px;
+}
+.exp-top{
+  display:flex;
+  
+  flex-direction: row;
+  justify-content:center;
+  height:150px;
+  
+  
+
+}
+.exp-top .exp-item{
+  text-align: center;
+  
+}
+.exp-top .exp-item:first-child{
+  width:200rpx;
+}
+.exp-top .exp-item:nth-child(2){
+  width:120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  
+
+
+}
+.exp-top .exp-item:nth-child(2) image{
+  height:80rpx;
+}
+.exp-top .exp-item:last-child{
+  width:150rpx;
+  
+}
+.exp-item image{
+  max-width: 90%;
+  max-height:100%;
+}
+.exp-top .exp-item .exp-text{
+  font-size:14px;
+  color:rgba(127,127,127,0.95);
+  letter-spacing: 0;
+  height:70px;
+}
+
+.exp-center .exp-item{
+  margin:70px 0px 0px 495rpx;
+  
+}
+.exp-center .exp-item image{
+  width:80rpx;
+  
+  
+}
+
+.exp-bottom .exp-item{
+  text-align: center;
+  position: relative;
+
+ 
+
+}
+.exp-bottom image{
+   height:80px;
+   max-width: 100%;
+}
+.info{
+  text-align: center;
+  margin-top:15px;
+}
+.info .text{
+  color:rgba(127,127,127,0.95);
+  font-size:17px;
+}
+.urine-btn[type="primary"]{
+  background-color: rgb(0,146,65);
+  width:450rpx;
+}
